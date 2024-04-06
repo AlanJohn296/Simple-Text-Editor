@@ -3,7 +3,7 @@
 
 This simple text editor is an application build using python's Tkinter.
 It has the following features
-**New File**: Create a new text file.
+\n **New File**: Create a new text file.
 **Open**: Open an existing text file.
 **Edit**: Edit the content of the text file within the GUI.
 **Save**: Save changes made to the text file or save as a new file.
