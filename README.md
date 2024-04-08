@@ -21,7 +21,7 @@ This repository contains a simple text editor application developed using Python
 **Requirements:**
 
 - Python 3
-- Tkinter (To install: `pip install tkinter`)
+- Tkinter (To install: `pip install tk`)
 
 **Usage:**
 
