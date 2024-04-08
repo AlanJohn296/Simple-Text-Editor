@@ -40,7 +40,7 @@ class TextEditor:
                 self.text_area.insert(tk.END, content)
 
     def save_file(self):
-        file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Text files", "*.txt")])
+        file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Text Files", "*.txt"), ("Other Files")])
         if file_path:
             with open(file_path, "w") as file:
                 content = self.text_area.get("1.0", tk.END)
@@ -49,7 +49,7 @@ class TextEditor:
             self.saveas_file()
                 
     def saveas_file(self):
-        file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Text files", "*.txt")])
+        file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Text Files", "*.txt"),("Python File", "*.py"),("Other Files")])
         if file_path:
             with open(file_path, "w") as file:
                 content = self.text_area.get("1.0", tk.END)
