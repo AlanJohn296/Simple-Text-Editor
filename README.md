@@ -1,24 +1,30 @@
-# Text-Editor
-**Simple Text Editor using Python**
+# Text Editor
 
-This simple text editor is an application build using python's Tkinter.
+**Description:**
 
-It has the following features
+This repository contains a simple text editor application developed using Python's Tkinter library. The text editor offers a range of functionalities aimed at providing a seamless editing experience for users.
 
-**New File**: Create a new text file.
+**Features:**
 
-**Open**: Open an existing text file.
+- **New File**: Create a new text file.
+  
+- **Open**: Open an existing text file.
+  
+- **Edit**: Modify the content of the text file within the Graphical User Interface (GUI).
+  
+- **Save**: Save changes made to the text file or save as a new file.
+  
+- **Save As**: Enables saving a new file or an existing file to a new location with the same or different name.
+  
+- **About**: Provides information about the application.
 
-**Edit**: Edit the content of the text file within the GUI.
+**Requirements:**
 
-**Save**: Save changes made to the text file or save as a new file.
+- Python 3
+- Tkinter (To install: `pip install tkinter`)
 
-**Save As** : Allows you to save a new file or an existing file to a new location with the same or different name.
+**Usage:**
 
-**About**: Information about the application.
+To use the text editor, simply execute the provided Python script. Upon launching the application, users can utilize the aforementioned features to create, open, edit, and save text files efficiently.
 
-**Requirments**
-
-Python3
-
-Tkinter (To Install: pip install tkinter)
+Experience the simplicity and functionality offered by this text editor application.
