@@ -6,6 +6,7 @@ class TextEditor:
     def __init__(self, master):
         self.master = master
         self.master.title("Text Editor")
+        self.master.iconbitmap("./logo.png")
         self.text_area = tk.Text(self.master, wrap="word")
         self.text_area.pack(expand=True, fill="both")
         self.create_menu()
