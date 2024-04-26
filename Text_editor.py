@@ -58,7 +58,7 @@ class TextEditor:
         #     self.saveas_file()
                 
     def saveas_file(self):
-        file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Text Files", ".txt"),("Python File", ".py"),("Other Files")])
+        file_path = filedialog.asksaveasfilename(defaultextension=".txt", filetypes=[("Text Files", "*.txt"),("Python File", "*.py"),("Html File", "*.html"),("Other Files")])
         if file_path:
             with open(file_path, "w") as file:
                 content = self.text_area.get("1.0", tk.END)
