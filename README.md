@@ -10,13 +10,11 @@ This repository contains a simple text editor application developed using Python
   
 - **Open**: Open an existing text file.
   
-- **Edit**: Modify the content of the text file within the Graphical User Interface (GUI).
-  
 - **Save**: Save changes made to the text file or save as a new file.
   
 - **Save As**: Enables saving a new file or an existing file to a new location with the same or different name.
   
-- **About**: Provides information about the application.
+- **Help & About**: Provides information about the application.
 
 **Requirements:**
 
