@@ -6,7 +6,7 @@ class TextEditor:
     def __init__(self, master):
         self.master = master
         self.master.title("Text Editor")
-        self.master.iconbitmap("./Note_logo.png")
+        #self.master.iconbitmap("./Note_logo.png")
         self.text_area = tk.Text(self.master, wrap="word")
         self.text_area.pack(expand=True, fill="both")
         self.filename = None  # To keep track of the current file
